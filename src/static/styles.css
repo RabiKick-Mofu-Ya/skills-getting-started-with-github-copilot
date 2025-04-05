@@ -90,13 +90,29 @@ section h3 {
   font-size: 14px;
   color: #666;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .activity-card ul li:before {
-  content: "❀";
+  content: "•";
   position: absolute;
   left: -20px;
   color: #ff9ecd;
+  font-size: 16px;
+}
+
+.activity-card .participants-section {
+  margin-top: 15px;
+  padding-top: 12px;
+  border-top: 1px dashed #ffd1e6;
+}
+
+.activity-card .participants-header {
+  color: #ff6b9d;
+  font-size: 0.95em;
+  margin-bottom: 10px;
 }
 
 .form-group {
